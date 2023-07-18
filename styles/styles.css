@@ -240,3 +240,57 @@
     color: #FF42A5;
     border: 1px solid #FF42A5;
 }
+/* footer style */
+footer{
+    background-color: #0B0223;
+}
+.logo-container-end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.logo-container-end p{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #FFF;
+}
+.quick-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    color: #FFF;
+}
+.quick-link li{
+    list-style: none;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    gap: 1rem;
+    margin-top: 50px;
+}
+.policy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+    color: #FFF;
+}
+.policy li{
+    list-style: none;
+}
+.copy-right{
+    color: #FFF;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 30px;
+}
+.footer-container{
+    padding-bottom: 100px;
+    
+}
