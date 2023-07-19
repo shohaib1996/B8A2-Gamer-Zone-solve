@@ -24,6 +24,14 @@
     .funny-videos{
         grid-template-columns: 1fr;
     }
+    .video{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        width: 260px
+    }
     .play-container h3{
         font-size: 1.5rem;
     }
@@ -62,8 +70,6 @@
         gap: 5px;
         padding: 3px;
     }
-
-    
     .games-type p{
         font-size: 0.5rem;
     }
@@ -81,3 +87,26 @@
     }
 
 }
+ @media screen and (min-width: 576px) and (max-width: 992px) {
+    .nav-bar, .nav, .header-container, .play-instantly{
+        flex-direction: column;
+    }
+    .video{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        width: 270px;
+    }
+    .funny-videos{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+    .image{
+        width: fit-content;
+    }
+    .image-overlay{
+        width: 104%;
+    }
+ }
